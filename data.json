@@ -1,0 +1,106 @@
+[
+    { 
+        "id": 10, 
+        "nombre": "Muzza", 
+        "precio": 10000,
+        "cantidad" :1 , 
+        "imagen": "/assets/Muzza1.webp" 
+    },
+    { 
+        "id": 11, 
+        "nombre": "Jamon", 
+        "precio": 11000,
+        "cantidad" :1 , 
+        "imagen": "/assets/jamon2.jpeg" 
+    },
+    { 
+        "id": 12, 
+        "nombre": "Napolitana", 
+        "precio": 12000,
+        "cantidad" :1 , 
+        "imagen": "/assets/napolitana1.jpg" 
+    },
+    { 
+        "id": 13, 
+        "nombre": "Provolone", 
+        "precio": 15000,
+        "cantidad" :1 , 
+        "imagen": "/assets/provolone.webp" 
+    },
+    { 
+        "id": 14, 
+        "nombre": "Roquefort", 
+        "precio": 14000,
+        "cantidad" :1 , 
+        "imagen": "/assets/roquefort.jpg" 
+    },
+    { 
+        "id": 15, 
+        "nombre": "Fugazzeta", 
+        "precio": 11000,
+        "cantidad" :1 , 
+        "imagen": "/assets/fugazzeta.jpg" 
+    },
+    { 
+        "id": 16, 
+        "nombre": "Jamon/Anana", 
+        "precio": 15000,
+        "cantidad" :1 , 
+        "imagen": "/assets/jamonAnana.jpg" 
+    },
+    { 
+        "id": 17, 
+        "nombre": "Jamon/Morrones", 
+        "precio": 14000,
+        "cantidad" :1 , 
+        "imagen": "/assets/jamonMorrones.jpg" 
+    },
+    { 
+        "id": 18, 
+        "nombre": "Carne Picada", 
+        "precio": 1600,
+        "cantidad" :1 , 
+        "imagen": "/assets/empanadaCarne.jpg" 
+    },
+    { 
+        "id": 19, 
+        "nombre": "Jamon y Queso", 
+        "precio": 1600,
+        "cantidad" :1 , 
+        "imagen": "/assets/empanadajyq.jpg" 
+    },
+    { 
+        "id": 20, 
+        "nombre": "Pollo", 
+        "precio": 1600,
+        "cantidad" :1 , 
+        "imagen": "/assets/empanadaPollo.jpg" 
+    },
+    { 
+        "id": 21, 
+        "nombre": "Verdura", 
+        "precio": 1600,
+        "cantidad" :1 , 
+        "imagen": "/assets/empanadaVerdura.webp" 
+    },
+    { 
+        "id": 22, 
+        "nombre": "Gaseosa Comun", 
+        "precio": 3500,"cantidad" :1 , 
+        "imagen": "/assets/coca.jpg" 
+    },
+    { 
+        "id": 23, 
+        "nombre": "Gaseosa Light", 
+        "precio": 3500,
+        "cantidad" :1 , 
+        "imagen": "/assets/cocaLight2.jpg" 
+    },
+    { 
+        "id": 24, 
+        "nombre": "Heinecken", 
+        "precio": 4000,
+        "cantidad" :1 , 
+        "imagen": "/assets/heinecken.webp" 
+    }
+]

@@ -1,0 +1,262 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body {
+    background-color: rgb(97, 97, 40);
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+@keyframes slideOut {
+    from {
+        transform: translateX(0);
+        opacity: 1;
+    }
+    to {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+}
+@keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+        transform: translateY(0);
+    }
+    40% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translateY(-5px);
+    }
+}
+.comprar:active {
+    animation: bounce 0.5s;
+}
+
+
+.modalBox-container.show {
+    animation: slideInFromRight 3.9s forwards;
+}
+.modalBox-container.hide {
+    animation: fadeOut 3.9s forwards;
+}
+
+
+
+.nav-containter {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: #333;
+}
+.navbar-logo {
+    justify-self: start;
+    margin-left: 20px;
+    color: beige;
+    margin-top: 4vh;
+    font-size: 35px;
+    cursor: pointer;
+}
+.vista-carrito {
+    font-size: 34px;
+    margin-right: 20px;
+    margin-top: 3.5vh;
+    cursor: pointer;
+}
+.navbar-menu {
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    padding: 45px;
+    
+}
+.navbar-menu li {
+    display: inline;
+    border-radius: 10px solid red;
+}
+.navbar-menu li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    border: 2px solid #fff;
+    padding: 10px 60px;
+    transition: 0.5s;
+}
+.navbar-menu li a:hover {
+    background-color: grey
+}
+
+.mas-vendido {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px;
+    margin: 30px;
+}
+
+.shop-content {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap:wrap;
+    height: 2200px;
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px; 
+} 
+.card {
+    border-style:double;
+    box-shadow: 0 6px 8px 0 black;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    flex: 1 1 calc(25% - 40px);
+}
+.card > img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.price {
+    color: grey;
+    font-size: 20px;
+    }
+.card button {
+    border:none;
+    padding: 20px;
+    color: white;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+    width:100%;
+    font-size: 20px;
+}
+.card button:hover {
+    opacity: 0.6;
+}
+
+
+.modalBox-container {
+    margin: 5% 10%;
+    width: 40%;
+    max-height:80vh;
+    border-radius: 30px;
+    color: #fff;
+    background-color:rgba(39, 38, 38, 0.932);
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+    position:fixed;
+    overflow:auto;
+    z-index: 9;
+    top:10vh;
+    gap:10px;
+    
+}
+.modalBox-container::-webkit-scrollbar{
+    display: none;
+}
+.modal-header {
+    display: flex;
+    justify-content: space-around;
+    color: #fff;
+    width: 100%;
+}
+.modal-header-title {
+    justify-self: start;
+}
+.modal-header-button {
+    cursor: pointer;
+}
+
+.modal-content {
+    display: flex;
+    flex-direction:row;
+    justify-content: space-evenly;
+    gap: 40px;
+    align-items:center;
+    margin: 18px;
+    animation: slideIn 0.5s forwards;
+}   
+.modal-content img {
+    display: flex;
+    flex-direction: row;
+    width: 120px;
+    height: auto;
+    border-radius: 12px;
+}
+
+
+.total-content {
+    font-size: 40px;
+    padding: 20px;
+    text-align: center;
+    padding-top: 20px;
+}
+.descartar-product {
+    cursor: pointer;
+}
+
+.cant-carrito {
+    background-color: rgb(175, 13, 13);
+    color: rgb(241, 233, 233);
+    border-radius: 40%;
+    font-size: 15px;
+    padding: 4px;
+    top: 37px;
+    right: 14px;
+    position: absolute;
+    display: none;
+    transition: transform 0.3s;
+}
+.suma {
+    cursor: pointer;
+    font-size: 25px;
+}
+.resta {
+    cursor: pointer;
+    font-size: 25px;
+}
+
+
+footer {
+    background-color:#333;
+    padding: 30px;
+    text-align: center;
+    }
+.redes {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+}
+.icon {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.fixed-whatsapp { 
+    position:fixed;
+    bottom:25px;
+    right: 25px;
+    z-index: 1000;
+    cursor: pointer;
+}
+.fixed-whatsapp img {
+    width:30px;
+}
+    
